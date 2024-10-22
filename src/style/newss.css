@@ -1,0 +1,36 @@
+.article-container {
+    max-width: 800px;
+    margin: 120px auto 0 auto; /* Отступ сверху в 100px */
+    padding: 20px;
+    background-color: #1A1A1A; /* Темный фон */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Небольшая тень для объема */
+    font-family: 'MyriadPro-Regular'; /* Шрифт статьи */
+  }
+  
+  .article-title {
+    font-family: 'Gilroy-ExtraBold'; /* Шрифт заголовка */
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #FED919; /* Цвет заголовка */
+    text-align: center;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .article-text {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
